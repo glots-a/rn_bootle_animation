@@ -26,7 +26,7 @@ export const BottleSvg = props => {
 
   const fillHeight = interpolate(
     animatedFillHeight().current,
-    [350, 2],
+    [360, 2],
     [423, 1],
     Extrapolation.CLAMP,
   );
